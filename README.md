@@ -1,8 +1,8 @@
 # revolut-client
 
-A simple class to handle authentication when access your own or another user's Revolut account. 
+A simple Python class to handle authentication when access your own or another user's Revolut account. 
 
-Can be used to [exchange authorisation code for access token](https://revolutdev.github.io/business-api/#exchange-authorisation-code-to-access-your-own-account) 
+It can be used to [exchange authorisation code for access token](https://revolutdev.github.io/business-api/#exchange-authorisation-code-to-access-your-own-account) 
 and to [refresh access tokens](https://revolutdev.github.io/business-api/#refresh-access-token-to-access-your-own-account).
 
 The JWT generation is easy to get wrong - note that an OrderedDict is used for the token args.
